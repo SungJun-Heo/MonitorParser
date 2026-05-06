@@ -8,7 +8,6 @@
 - 수량 제약: 선별할 부품의 총합은 반드시 5개여야 한다.
 
 [Task Instructions]
-- task 의 이름을 출력하라.
 - 이미지 내 모니터 화면에 적힌 부품 명칭과 각 수량을 판독하라.
 - 판독된 정보가 규정된 5종의 부품에 해당되는지 확인하라.
 
@@ -22,5 +21,5 @@
       "quantity": integer
     }
   ],
-  "total_count": 5
+  "total_count": integer
 }
