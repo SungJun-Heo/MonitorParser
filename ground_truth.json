@@ -48,5 +48,47 @@
       {"name": "Dome Nut", "quantity": 2}
     ],
     "total_count": 5
+  },
+  "task_A_7": {
+    "target_parts": [
+      {"name": "Flange Nut", "quantity": 1},
+      {"name": "Hex Nut", "quantity": 2},
+      {"name": "Dome Nut", "quantity": 2}
+    ],
+    "total_count": 5
+  },
+  "task_A_8": {
+    "target_parts": [
+      {"name": "Flange Nut", "quantity": 5}
+    ],
+    "total_count": 5
+  },
+  "task_A_9": {
+    "target_parts": [
+      {"name": "Flange Nut", "quantity": 1},
+      {"name": "Gear Ring", "quantity": 1},
+      {"name": "Spacer Ring", "quantity": 1},
+      {"name": "Hex Nut", "quantity": 1},
+      {"name": "Dome Nut", "quantity": 1}
+    ],
+    "total_count": 5
+  },
+  "task_A_10": {
+    "target_parts": [
+      {"name": "Hex Nut", "quantity": 5}
+    ],
+    "total_count": 5
+  },
+  "task_A_11": {
+    "target_parts": [
+      {"name": "Hex Nut", "quantity": 5}
+    ],
+    "total_count": 5
+  },
+  "task_A_12": {
+    "target_parts": [
+      {"name": "Hex Nut", "quantity": 5}
+    ],
+    "total_count": 5
   }
 }
