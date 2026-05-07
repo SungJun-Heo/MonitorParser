@@ -1,0 +1,5 @@
+# 단일 이미지 실행
+python run_task_A.py --image task_A_1.png
+
+# 전체 평가 (images/ 내 모든 이미지)
+python run_task_A.py --evaluate
