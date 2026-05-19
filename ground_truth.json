@@ -1,17 +1,84 @@
 {
-  "task_A_1.png": {
+  "Slide1.jpg": {
     "target_parts": [
       {
         "name": "Flange Nut",
         "quantity": 1
       },
       {
+        "name": "Gear Ring",
+        "quantity": 1
+      },
+      {
+        "name": "Spacer Ring",
+        "quantity": 1
+      },
+      {
         "name": "Hex Nut",
+        "quantity": 1
+      },
+      {
+        "name": "Dome Nut",
+        "quantity": 1
+      }
+    ],
+    "total_count": 0
+  },
+  "Slide2.jpg": {
+    "target_parts": [
+      {
+        "name": "Flange Nut",
+        "quantity": 1
+      },
+      {
+        "name": "Gear Ring",
+        "quantity": 1
+      },
+      {
+        "name": "Spacer Ring",
+        "quantity": 1
+      },
+      {
+        "name": "Hex Nut",
+        "quantity": 1
+      },
+      {
+        "name": "Dome Nut",
+        "quantity": 1
+      }
+    ],
+    "total_count": 5
+  },
+  "Slide3.jpg": {
+    "target_parts": [
+      {
+        "name": "Flange Nut",
+        "quantity": 3
+      },
+      {
+        "name": "Spacer Ring",
+        "quantity": 1
+      },
+      {
+        "name": "Dome Nut",
+        "quantity": 1
+      }
+    ],
+    "total_count": 5
+  },
+  "Slide4.jpg": {
+    "target_parts": [
+      {
+        "name": "Flange Nut",
+        "quantity": 2
+      },
+      {
+        "name": "Spacer Ring",
         "quantity": 2
       },
       {
         "name": "Dome Nut",
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "total_count": 5
