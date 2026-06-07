@@ -1,0 +1,14 @@
+Extract "부품명 (PART NAME)" and "선별 수량 (QUANTITY)" from the image.
+[PART NAME MAPPING]
+플랜지 너트, 플랜지너트 → FlangeNut
+스페이서 링, 스페이서링 → SpacerRing
+돔 너트, 돔너트 → DomeNut
+육각 너트, 육각너트 → HexNut
+기어 링, 기어링 → GearRing
+[OUTPUT FORMAT - JSON ONLY]
+{
+  "target_parts": [
+    {"name": "string", "quantity": integer}
+  ],
+  "total_count": integer
+}
