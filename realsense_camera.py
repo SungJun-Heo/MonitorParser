@@ -54,8 +54,6 @@ class RealSenseCameraThread(threading.Thread):
                     return
                 self._pipeline.wait_for_frames()
 
-            self._started_event.set()
-
             while not self._stop_event.is_set():
                 frames = self._pipeline.wait_for_frames()
                 color_frame = frames.get_color_frame()
@@ -64,6 +62,8 @@ class RealSenseCameraThread(threading.Thread):
                 image = np.asanyarray(color_frame.get_data())
                 with self._lock:
                     self._frame = image
+                # 첫 프레임이 실제로 저장된 뒤에 준비 완료를 알린다 (idempotent).
+                self._started_event.set()
         finally:
             self._pipeline.stop()
 

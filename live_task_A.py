@@ -36,6 +36,10 @@ def main() -> None:
     arg_parser.add_argument("--width", type=int, default=640)
     arg_parser.add_argument("--height", type=int, default=480)
     arg_parser.add_argument("--fps", type=int, default=30)
+    arg_parser.add_argument(
+        "--serial", default="138422073714",
+        help="RealSense 장치 시리얼 번호 (여러 대 연결 시 선택)",
+    )
     args = arg_parser.parse_args()
 
     prompt_path = BASE_DIR / "prompts" / args.prompt
@@ -44,7 +48,9 @@ def main() -> None:
 
     task_parser = taskAParser(prompt_path=str(prompt_path))
 
-    cam = RealSenseCameraThread(width=args.width, height=args.height, fps=args.fps)
+    cam = RealSenseCameraThread(
+        width=args.width, height=args.height, fps=args.fps, serial=args.serial
+    )
     cam.start()
     if not cam.wait_until_ready():
         print("카메라 준비 실패")
